@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> student form</title>
+    <meta content="UTF-8" />
+</head>
+
+<body>
+    <font color="blue">
+        <em><h1>submit your form detail</h1></em>
+    </font>
+
+    <form>
+        <table width="50%" cellspacing="5" cellpadding="5">
+            <tr>
+                <td colspan="2"> employment appication</td>
+
+            </tr>
+            <tr>
+                <td>first name : </td>
+                <td><input type="text" name="fname" maxlength="12" /> </td>
+            </tr>
+            <tr>
+                <td>last name :</td>
+                <td><input type="text" name="lname" /></td>
+            </tr>
+            <tr>
+                <td>position :</td>
+                <td>
+                    <select name="position">
+                        <option value="ab">admistrar</option>
+                        <option value="sr">servent</option>
+                        <option value="re">resepnist</option>
+                        <option value="mn">manager</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>expiriyans level :</td>
+                <td>
+                    <select name="expiriyans level">
+                        <option value="ab">no expi.</option>
+                        <option value="sa">same year</option>
+                        <option value="mo">more expi.</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>job type :</td>
+                <td>
+                    <input type="checkbox" name="ft">full-time
+                    <input type="checkbox" name="pt">part-time
+                    <input type="checkbox" name="co">contract
+                </td>
+            </tr>
+            <tr>
+                <td>employment states :</td>
+                <td>
+                    <input type="radio" name="em">employ
+                    <input type="radio" name="em">unempoloy
+                    <input type="radio" name="em">student
+                </td>
+            </tr>
+            <tr>
+                <td>additonal content :</td>
+                <td>
+                    <textarea cols="15" rows="3"> </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit" value="Submit" />
+                    <input type="reset" name="reset" value="Reset" />
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
